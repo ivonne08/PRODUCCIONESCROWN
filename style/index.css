@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Limelight&family=Lobster&family=Mate+SC&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Mate SC', serif;
+}
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    background-color: rgb(43, 90, 43);
+    padding: 15px 0px;
+}
+select{
+    float: right;
+    font-size: 80%;
+    font-weight: bolder;
+}
+.buscador{
+    font-size: 100%;
+
+}
+h1{
+    width: 100vw;
+    text-align: center;
+    font-family: 'Limelight', cursive;
+    font-size: 500%;
+    color: rgb(243, 243, 243);
+    font-weight: 900;
+    background-color: rgba(0,0,0,0.5);
+    border-top: 1px solid rgb(12, 12, 12);
+    border-bottom: 1px solid rgb(12, 12, 12);
+}
+#titulo{
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 200%;
+    font-weight: 900;
+}
+.logo2{
+    width: 20%;
+    height: 20%;
+    position: sticky;
+    top: 0;
+}
+body{
+    overflow-x: hidden;
+    background-color:rgb(79, 160, 79) ;
+}
+img{
+    width: 100vw;
+    height: 100vh;
+    position: sticky;
+    top: 0;
+}
+dl{
+    width: 100vw;
+    height: 50vh;
+    color: white;
+    position: sticky;
+    top: 0;
+    font-size: 200%;
+    font-weight: 900;
+}
+dt{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 120px;
+}   
+dd{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 60px;
+}
+main{
+    width: 100vw;
+    height: 100vh;
+    position: sticky;
+    top: 0;
+}
+#listafinal{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    background-color: rgb(31, 56, 31);
+    padding: 5% 0%;
+}
+.lista{
+    text-decoration: none;
+    color: white;
+    font-size: 80%;
+    font-weight: 900;
+}
+#listafinal2{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    background-color: rgb(31, 56, 31);
+    padding: 5% 0%;
+}
+.lista2{
+    text-decoration: none;
+    color: white;
+    font-size: 80%;
+    font-weight: 900;
+}
+p{
+    color: cornsilk;
+    font-size: 40px;
+    font-family: 'Lobster', cursive;
+}
+form{
+    display: flex;
+    justify-content: center;
+    font-size: 100%;
+    font-weight: bolder;
+}
